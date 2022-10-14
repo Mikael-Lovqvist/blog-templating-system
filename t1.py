@@ -51,7 +51,7 @@ class TOKEN:
 
 class string_tokenizer:
 	RULES = {
-		re.compile(r"\\'"):	TOKEN.ESCAPED_SINGLE_QUOTE,
+		re.compile(r"\\'"):		TOKEN.ESCAPED_SINGLE_QUOTE,
 		re.compile(r"'"):		TOKEN.SINGLE_QUOTE,
 	}
 
